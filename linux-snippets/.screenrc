@@ -1,0 +1,7 @@
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+bindkey "^[j" prev
+bindkey "^[k" next
+bindkey "^[[1;3D" prev
+bindkey "^[[1;3C" next
+defscrollback 10000
