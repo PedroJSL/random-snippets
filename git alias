@@ -1,0 +1,10 @@
+[alias]
+        st = status -sb
+        cmm = commit -m
+        brl = branch --list
+        ck = checkout
+        ckb = checkout -b
+        brd = branch -D
+        remBrd = push origin --delete
+        remBrl = branch -r
+        logline = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
